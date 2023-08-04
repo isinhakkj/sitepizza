@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin: auto;
+    background-color: rgb(36, 36, 36);
+    justify-content: center;
+    align-items: center;
+    background-image: url(img/pizzaBackground.jpg);
+    background-size: cover;
+    background-blend-mode:multiply;
+    
+}
+
+header{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    height: 60px;
+
+}
+
+.titulo{
+    margin-top: 20px;
+    display: flex;
+}
+
+#logo{
+    width: 30px;
+    height: 30px;
+    padding-right: 5px;
+}
+
+.titulo h2{
+    color: white;
+}
+
+nav{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin: auto;
+    width: 75%;
+    height: 100px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+
+ul li {
+    font-weight: bold;
+    padding: 20px 10px;
+}
+
+li:hover {
+    background-color: rgb(32, 32, 32, 0.295);
+    border-bottom: 1px solid yellow;
+}
+
+section{
+    text-align: center;
+    justify-content: space-around;
+    margin: auto;
+    width: 90%;
+    margin-top: 300px;
+}    
+
+section h1{
+    color: yellow;
+    font-size: 30px;
+}
+
+section h4{
+    margin-top: 15px;
+    color: yellow;
+    font-size: 15px;
+}
+
+button{
+    margin: 7px;
+    margin-top: 105px;
+    background-color: yellow;
+    padding: 15px;
+    padding-left: 37px;
+    padding-right: 37px;
+    border-radius: 10px;
+    font-size: 12px;
+    font-weight: 800 ;
+    color: black;
+    border: 1px solid yellow;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid yellow;
+}
